@@ -1,0 +1,13 @@
+@tailwind base;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-black;
+}
+
+@tailwind components;
+
+@tailwind utilities;
