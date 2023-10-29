@@ -2,8 +2,8 @@
   "name": "nextjs-jukebox",
   "version": "0.0.0",
   "description": "Next.js Jukebox 📻",
-  "homepage": "https://github.com/cndycd/next-demo-candycode",
-  "bugs": "https://github.com/cndycd/next-demo-candycode/issues",
+  "homepage": "https://github.com/cndycd/nextjs-jukebox",
+  "bugs": "https://github.com/cndycd/nextjs-jukebox/issues",
   "license": "MIT",
   "author": "Sophia Michelle Andren (https://candycode.com/)",
   "sideEffects": [
@@ -21,22 +21,22 @@
   "dependencies": {
     "framer-motion": "^10.16.4",
     "jotai": "^2.5.0",
-    "next": "^13.5.6",
+    "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.8.8",
-    "@types/react": "^18.2.31",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.52.0",
-    "eslint-config-next": "^13.5.6",
+    "eslint-config-next": "^14.0.0",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.6",
     "sharp": "^0.32.6",
-    "tailwindcss": "^3.3.4",
+    "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2"
   },
   "browserslist": [

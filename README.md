@@ -276,13 +276,13 @@ export default function SectionModal({ params }) {
 }
 ```
 
-## next/server
+## next/og
 
 ### Generate social media card images
 
 ```jsx
 // ~/app/section/[slug]/opengraph-image.js
-import { ImageResponse } from 'next/server';
+import { ImageResponse } from 'next/og';
 
 export default async function OpenGraphImage({ params }) {
   const foundersGroteskRegular = fetch(

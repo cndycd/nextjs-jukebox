@@ -43,7 +43,7 @@ export const Component = ({ params }) => {
   }, [clicks]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="fixed inset-0 z-10 flex flex-col items-end justify-end bg-black/25 p-8 backdrop-blur-2xl xl:p-16">
+    <div className="fixed inset-0 z-10 flex flex-col items-end justify-end bg-black/25 p-8 backdrop-blur xl:p-16">
       <div className="inline-block w-full">
         <div className="relative z-20 overflow-clip rounded" style={{ backgroundColor: color }}>
           <div className="flex flex-col gap-16 bg-gradient-to-b from-transparent to-black/75 p-8 xl:flex-row">

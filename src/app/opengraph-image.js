@@ -1,4 +1,4 @@
-import { ImageResponse } from 'next/server';
+import { ImageResponse } from 'next/og';
 
 export default async function OpenGraphImage() {
   const robotoBold = fetch(new URL('../fonts/Roboto-Bold.ttf', import.meta.url)).then((res) =>
